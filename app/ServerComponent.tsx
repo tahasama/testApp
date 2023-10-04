@@ -23,6 +23,8 @@ const ServerComponent = async () => {
   return (
     <div>
       {" "}
+      <h1 className="text-white text-center ">HHHHHHHHHHHHHHHHH</h1>
+      <br />
       <ul>
         {data.map((product: any) => (
           <li key={product.id}>
