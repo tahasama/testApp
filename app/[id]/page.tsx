@@ -1,9 +1,6 @@
 import React from "react";
 
-const Product = ({ params }: any) => {
-  const { id } = params;
-  console.log("🚀 ~ file: page.tsx:5 ~ Product ~ id:", id);
-
+const Product = () => {
   return <div>Product</div>;
 };
 
